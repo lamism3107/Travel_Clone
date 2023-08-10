@@ -1,0 +1,70 @@
+:root{
+    --primary-purple: #b374dd;
+    --primary-green: #1bbc9b;
+    --primary-blue: #14b9d5;
+    --primary-red: #f76570;
+    --primary-yellow: #ffd205;
+    --white-color: #fff;
+    --text-color: #9a9a9a;
+}
+
+*{
+    box-sizing: inherit;
+    
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+
+.section{
+    width: 1170px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Button CSS */
+.btn{
+    border-radius: 30px;
+    color:#ffffff;
+    display: inline-block;
+    letter-spacing: 2px;
+    line-height: 1.4rem;
+    cursor:pointer;
+    border: none;
+    text-decoration: none;
+    transition: all ease 0.3s;
+}
+.btn:hover{
+    filter: brightness(110%);
+}
+.btn.btn--purple{
+    background-color: var(--primary-purple);
+}
+.btn.btn--blue{
+    background-color: var(--primary-blue);
+}
+.btn.btn--green{
+    background-color: var(--primary-green);
+}
+.btn.btn--yellow{
+    background-color: var(--primary-yellow);
+}
+.btn.btn--red{
+    background-color: var(--primary-red);
+}
+.btn.btn--small-size{
+    padding: 12px 15px 10px;
+    font-size: 1.3rem;
+}
+.btn.btn--big-size{
+    padding: 16px 30px;
+    font-size: 1.4rem;
+}
