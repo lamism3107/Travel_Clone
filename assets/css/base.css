@@ -43,7 +43,7 @@ html{
     transition: all ease 0.3s;
 }
 .btn:hover{
-    filter: brightness(110%);
+    filter: brightness(120%);
 }
 .btn.btn--purple{
     background-color: var(--primary-purple);
@@ -56,6 +56,9 @@ html{
 }
 .btn.btn--yellow{
     background-color: var(--primary-yellow);
+}
+.btn.btn--yellow:hover{
+    filter: brightness(110%);
 }
 .btn.btn--red{
     background-color: var(--primary-red);
